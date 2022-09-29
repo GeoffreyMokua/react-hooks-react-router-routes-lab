@@ -15,7 +15,7 @@ test("renders the <NavBar /> component", () => {
 });
 
 test('renders the Home component using the <Route path="/">', () => {
-  window.history.pushState({}, "", "/");
+  // window.history.pushState({}, "", "/");
   render(
     <BrowserRouter>
       <App />
@@ -25,7 +25,7 @@ test('renders the Home component using the <Route path="/">', () => {
 });
 
 test('renders the Actors component using the <Route path="/actors">', () => {
-  window.history.pushState({}, "", "/actors");
+  // window.history.pushState({}, "", "/actors");
   render(
     <BrowserRouter>
       <App />
@@ -35,7 +35,7 @@ test('renders the Actors component using the <Route path="/actors">', () => {
 });
 
 test('renders the Directors component using the <Route path="/directors">', () => {
-  window.history.pushState({}, "", "/directors");
+  // window.history.pushState({}, "", "/directors");
   render(
     <BrowserRouter>
       <App />
@@ -45,7 +45,7 @@ test('renders the Directors component using the <Route path="/directors">', () =
 });
 
 test('renders the Movies component using the <Route path="/movies">', () => {
-  window.history.pushState({}, "", "/movies");
+  // window.history.pushState({}, "", "/movies");
   render(
     <BrowserRouter>
       <App />
